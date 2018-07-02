@@ -4,7 +4,7 @@ interface Events {
   [index:string]: string[]
 }
 
-const events: Events = {
+var events: Events = {
   start: ['animationstart', 'webkitAnimationStart', 'mozAnimationStart', 'oanimationstart', 'MSAnimationStart'],
   end: ['animationend', 'webkitAnimationEnd', 'mozAnimationEnd', 'oanimationend', 'MSAnimationEnd'],
   startRemoved: [],
